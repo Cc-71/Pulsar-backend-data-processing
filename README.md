@@ -24,6 +24,4 @@ g++ main.o cuda_fft.o -o udp_processor \
 
 # Run .py file
 python send_test2.py
-// First compile source files to generate object files (.o)
-// Use nvcc to link object files and libraries
-// Generate the final executable file
+
